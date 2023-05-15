@@ -12,7 +12,7 @@ import firstimage from "../../Assets/images/pic18.jpg";
 function Mainsection2() {
   return (
     <div className='mainsection-2'>
-      <div className='image-container '>
+      <div className='image-container'>
         <Card sx={{ maxWidth: 345 }} className='mx-10'>
           <CardActionArea>
             <CardMedia
