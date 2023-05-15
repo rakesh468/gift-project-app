@@ -1,0 +1,46 @@
+.mainsection1{
+    background-color: azure;
+}
+.topic1 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+ 
+}
+
+.content > p{
+  font-size:1rem;
+  font-weight: 600;
+  font-style: bold;
+  margin-top: 2px;
+  margin-bottom: 0;
+ 
+}
+
+
+.image1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+@media(max-width:720px){
+  .topic1{
+     display: flex;
+     flex-direction: column-reverse;
+  }
+  .content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 200px;
+  }
+}
+
+

@@ -1,0 +1,28 @@
+.mainsection-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image-container > img{
+    height: 350px;
+    width: 350px;
+}
+/* .image-container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+} */
+
+@media(max-width:720px){
+   .image-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+   }
+  }

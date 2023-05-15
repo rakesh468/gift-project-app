@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import MainSection1 from './components/Mainsection1';
+import Mainsection2 from './components/Mainsection2';
+import SilderCard from './components/Carosuel/SilderCard';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-section">
+      <MainSection1/>  
+      <SilderCard/>
+      <Mainsection2/>
     </div>
   );
 }
